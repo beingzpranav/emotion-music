@@ -15,11 +15,11 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /app
 
 # ── Install Python dependencies ────────────────────────────────────────────────
-COPY backend/requirements.txt .
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # ── Copy backend source ────────────────────────────────────────────────────────
-COPY backend/ .
+COPY . .
 
 # ── Hugging Face Spaces runs on port 7860 ─────────────────────────────────────
 ENV PORT=7860

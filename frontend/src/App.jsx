@@ -4,7 +4,7 @@ import ImageUpload from './components/ImageUpload.jsx'
 import EmotionResult from './components/EmotionResult.jsx'
 import SongCards from './components/SongCards.jsx'
 
-const API_BASE = 'http://localhost:5000'
+const API_BASE = 'https://beingzpranav-moodtrack-api.hf.space'
 
 // Default theme colours (overridden dynamically from the API response)
 const DEFAULT_COLORS = {
