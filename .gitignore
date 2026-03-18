@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+backend/venv/
+venv/
+env/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+frontend/node_modules/
+node_modules/
+
+# Vite build output
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+
+# DeepFace / model weights cache (can be large)
+~/.deepface/

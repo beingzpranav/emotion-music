@@ -1,0 +1,11 @@
+flask
+flask-cors
+deepface
+opencv-python
+pandas
+numpy
+tf-keras
+kagglehub
+hsemotion
+transformers
+Pillow
